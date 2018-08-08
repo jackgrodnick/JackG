@@ -23,7 +23,26 @@
 </div>
 </header>
   <body>
+    <div class="row">
+      <div class="column">
+        <h1>Contact Me</h1>
+        <div class="contact-form">
+         <form class="contact-from" method="post" action="contact-form-handler.php">
+           <input name="name" type="text" class="form-control" placeholder="Full name" required>
+           <input name="email" type="email" class="form-control" placeholder="Your email" required>
+           <textarea name="message" class="form-control" placeholder="Message" rows="4"
+           required></textarea><br>
 
+           <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+         </form>
+
+        </div>
+      </div>
+      <div class="column">
+        <p class="something">Some text..</p>
+      </div>
+    </div>
   </div>
   </body>
 </html>

@@ -4,6 +4,7 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   cursor: default !important;
   height: 100vh;
+  background-color: #252627;
 }
 
 @media screen and (max-width: 600px) {
@@ -41,7 +42,7 @@ body {
 }
 
  #home {
-   
+
   }
 }
 
@@ -137,7 +138,7 @@ nav {
 }
 .row {
   margin: 0 !important;
-  display: flex;
+  display: inline-block;
   width: 100%;
 }
 
@@ -473,4 +474,42 @@ font-weight: 100;
 
 .thefrontpage {
   width: 100% !important;
+}
+
+.CONTACT_ME {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #0fd;
+  color: #fff;
+  font-size: 18px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+}
+
+form .submit:hover {
+  
 }
