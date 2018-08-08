@@ -33,8 +33,16 @@ nav {
 
 body {
     width: 100% !important;
+    height: 90% !important;
 }
 
+.centerfront {
+  line-height: 40px !important;
+}
+
+ #home {
+   
+  }
 }
 
 .LOGO {
