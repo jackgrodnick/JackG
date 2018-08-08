@@ -1,0 +1,454 @@
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  cursor: default !important;
+}
+
+
+.LOGO {
+float: left;
+max-width: 70px;
+}
+
+
+.navbar {
+  width: 100%;
+  padding: 5px 0px;
+  background: #181818;
+  white-space: nowrap;
+}
+
+.navbar ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: -5px;
+  color: #ccc;
+  font-size: 25px;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.navbar ul li:hover {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: -5px;
+  font-size: 25px;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: #0fd;
+}
+
+
+#active2 {
+  color: #0fd;
+}
+
+
+nav {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+/*home page*/
+
+#home {
+  height: 100vh;
+  background: #252627;
+}
+
+/*about page*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+* {
+    box-sizing: border-box !important;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+  margin: 0 !important;
+  display: flex;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.about-me {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+  color: #0fd;
+  letter-spacing: 1px;
+}
+
+
+.about-p {
+  margin-top: 100px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#about {
+  height: 100vh;
+  background: #303030;
+}
+
+
+#ani {
+  display: inline-block;
+  color: #fff;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  text-decoration: none;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+#ani:hover {
+  animation-name: rubberBand;
+  color: #0fd;
+  cursor: default;
+}
+
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+
+.open3 {
+  font-size: 10px;
+  color: #0fd;
+  margin: 0;
+}
+
+
+.open {
+  font-size: 56px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.open1 {
+  font-size: 56px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.open2 {
+  font-size: 56px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.centerfront {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  white-space: nowrap;
+  line-height: 53px;
+}
+
+.code1 {
+  margin: 0;
+position: absolute;
+left: 10%;
+top: 13%;
+font-family: 'Great Vibes', cursive;
+font-size: 20px;
+color: #757575;
+font-weight: 100;
+}
+
+.code2 {
+  margin: 0;
+position: absolute;
+left: 0%;
+top: -16%;;
+font-family: 'Great Vibes', cursive;
+font-size: 20px;
+color: #757575;
+font-weight: 100;
+}
+
+.code3 {
+  margin: 0;
+position: absolute;
+left: 101%;
+bottom: 18%;
+font-family: 'Great Vibes', cursive;
+font-size: 20px;
+color: #757575;
+font-weight: 100;
+}
+
+.code4 {
+  margin: 0;
+position: absolute;
+left: 10%;
+bottom: 5%;
+font-family: 'Great Vibes', cursive;
+font-size: 20px;
+color: #757575;
+font-weight: 100;
+}
+.code5 {
+  margin: 0;
+position: absolute;
+left: 8%;
+bottom: 2%;
+font-family: 'Great Vibes', cursive;
+font-size: 20px;
+color: #757575;
+font-weight: 100;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+#ani1 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.2s !important;
+}
+
+#ani2 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.3s !important;
+}
+
+#ani3 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.4s !important;
+}
+
+#ani4 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.5s !important;
+}
+
+#ani5 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.6s !important;
+}
+
+#ani6 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.7s !important;
+}
+
+#ani7 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.8s !important;
+}
+
+#ani8 {
+  animation-duration: 0.3s !important;
+  animation-delay: 0.9s !important;
+}
+
+#ani9 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1s !important;
+}
+
+#ani10 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.1s !important;
+}
+
+#ani11 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.2s !important;
+}
+
+#ani12 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.3s !important;
+}
+
+#ani13 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.4s !important;
+}
+
+#ani14 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.5s !important;
+}
+
+#ani15 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.6s !important;
+}
+
+#ani16 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.7s !important;
+}
+
+#ani17 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.8s !important;
+}
+
+#ani18 {
+  animation-duration: 0.3s !important;
+  animation-delay: 1.9s !important;
+}
+
+#ani19 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2s !important;
+}
+
+#ani20 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.1s !important;
+}
+
+#ani21 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.2s !important;
+}
+
+#ani22 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.3s !important;
+}
+
+#ani23 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.4s !important;
+}
+
+#ani24 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.5s !important;
+}
+
+.thefrontpage {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+.open {
+
+}
+
+.open1 {
+}
+
+.open2 {
+}
+
+.open3 {
+
+}
+
+}
