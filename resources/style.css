@@ -3,8 +3,28 @@ body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   cursor: default !important;
+  width: 100vh;
+  height: 100vh;
 }
 
+@media screen and (max-width: 600px) {
+
+.open {
+  font-size: 40px !important;
+}
+
+.open1 {
+  font-size: 40px !important;
+}
+
+.open2 {
+  font-size: 40px !important;
+}
+
+.open3 {
+
+}
+}
 
 .LOGO {
 float: left;
@@ -434,21 +454,4 @@ font-weight: 100;
 
 .thefrontpage {
   width: 100% !important;
-}
-
-@media only screen and (max-width: 600px) {
-.open {
-
-}
-
-.open1 {
-}
-
-.open2 {
-}
-
-.open3 {
-
-}
-
 }
