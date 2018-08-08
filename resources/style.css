@@ -24,6 +24,10 @@ body {
 .open3 {
 
 }
+
+nav {
+  margin: 0 !important;
+}
 }
 
 .LOGO {
