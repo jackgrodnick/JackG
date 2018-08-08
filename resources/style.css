@@ -3,7 +3,6 @@ body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   cursor: default !important;
-  width: 100vh;
   height: 100vh;
 }
 
@@ -28,6 +27,14 @@ body {
 nav {
   margin: 0 !important;
 }
+.navbar ul li {
+  width: 87px !important;
+}
+
+body {
+    width: 100vh !important;
+}
+
 }
 
 .LOGO {
