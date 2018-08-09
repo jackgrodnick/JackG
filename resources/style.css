@@ -73,6 +73,10 @@ height: 80vh !important;
     width: 278px !important;
     height: 450px !important;
   }
+  .jack5 {
+    max-width: 27px !important;
+  }
+
 }
 
 .LOGO {
@@ -152,12 +156,56 @@ nav {
 .code11 {
   position: absolute;
   top: 13%;
-  left: 10%;
+  left: 9%;
   font-family: 'Great Vibes', cursive;
     font-size: 20px;
     color: #757575;
     font-weight: 100;
     margin: 0;
+}
+.code12 {
+  margin: 0;
+  position: absolute;
+  font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: #757575;
+    font-weight: 100;
+    top: -6%;
+left: 3%;
+}
+
+.code13 {
+  margin: 0;
+  position: absolute;
+  font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: #757575;
+    font-weight: 100;
+    top: 63%;
+    left: 0%;
+}
+
+.code14 {
+  left: 10%;
+  position: absolute;
+  bottom: 5%;
+  font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: #757575;
+    font-weight: 100;
+    margin: 0;
+}
+
+.code15 {
+  position: absolute;
+    bottom: 1%;
+    left: 7%;
+    font-family: 'Great Vibes', cursive;
+      font-size: 20px;
+      color: #757575;
+      font-weight: 100;
+      margin: 0;
+}
 }
 /* Create two equal columns that floats next to each other */
 .column {
@@ -218,7 +266,7 @@ nav {
     position: absolute;
     width: 49%;
     right: 0%;
-    top: 30%
+    top: 12%
 }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -259,12 +307,13 @@ margin: 0 auto !important;
   color: #08fdd8;
   letter-spacing: 1px;
   white-space: nowrap;
+  margin: 0;
 
 }
 
 
 .about-p {
-  margin-top: 0;
+  margin-top: 10px !important;
   color: #fff;
   letter-spacing: 1px;
 
@@ -691,4 +740,8 @@ header {
   margin: auto;
   width: 100%;
   animation-delay: 2s;
+}
+
+.jack5 {
+  max-width: 35px;
 }
