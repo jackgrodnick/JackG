@@ -30,7 +30,7 @@ header {
 }
 
 nav {
-  /* margin: 0 !important; */
+  margin: 0 !important;
 }
 .navbar ul li {
   width: 87px !important;
@@ -554,5 +554,5 @@ body {
 }
 
 header {
-  
+
 }
