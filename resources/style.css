@@ -60,11 +60,11 @@ height: 80vh !important;
   }
 
   .code5 {
-    bottom: 12% !important;
+    bottom: 20% !important;
     left: 3% !important;
   }
   .code4 {
-    bottom: 15% !important;
+    bottom: 23% !important;
   }
   .code3 {
     display: none;
@@ -157,18 +157,18 @@ nav {
   position: absolute;
   top: 13%;
   left: 9%;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
-    color: #757575;
+    color: #515152;
     font-weight: 100;
     margin: 0;
 }
 .code12 {
   margin: 0;
   position: absolute;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
-    color: #757575;
+    color: #515152;
     font-weight: 100;
     top: -6%;
 left: 3%;
@@ -177,9 +177,9 @@ left: 3%;
 .code13 {
   margin: 0;
   position: absolute;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
-    color: #757575;
+    color: #515152;
     font-weight: 100;
     top: 63%;
     left: 0%;
@@ -189,9 +189,9 @@ left: 3%;
   left: 10%;
   position: absolute;
   bottom: 5%;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
-    color: #757575;
+    color: #515152;
     font-weight: 100;
     margin: 0;
 }
@@ -200,9 +200,9 @@ left: 3%;
   position: absolute;
     bottom: 1%;
     left: 7%;
-    font-family: 'Great Vibes', cursive;
+      font-family: 'La Belle Aurore', cursive;
       font-size: 20px;
-      color: #757575;
+      color: #515152;
       font-weight: 100;
       margin: 0;
 }
@@ -431,11 +431,11 @@ margin: 0 auto !important;
 .code1 {
   margin: 0;
 position: absolute;
-left: 10%;
+left: 7%;
 top: 13%;
-font-family: 'Great Vibes', cursive;
+font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
-color: #757575;
+color: #515152;
 font-weight: 100;
 }
 
@@ -444,41 +444,41 @@ font-weight: 100;
 position: absolute;
 left: 0%;
 top: -16%;;
-font-family: 'Great Vibes', cursive;
+font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
-color: #757575;
+color: #515152;
 font-weight: 100;
 }
 
 .code3 {
   margin: 0;
 position: absolute;
-left: 101%;
-bottom: 34%;
-font-family: 'Great Vibes', cursive;
+left: 102%;
+bottom: 33%;
+font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
-color: #757575;
+color: #515152;
 font-weight: 100;
 }
 
 .code4 {
   margin: 0;
 position: absolute;
-left: 10%;
+left: 7%;
 bottom: 5%;
-font-family: 'Great Vibes', cursive;
+font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
-color: #757575;
+color: #515152;
 font-weight: 100;
 }
 .code5 {
   margin: 0;
 position: absolute;
-left: 8%;
+left: 4%;
 bottom: 2%;
-font-family: 'Great Vibes', cursive;
+font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
-color: #757575;
+color: #515152;
 font-weight: 100;
 }
 
