@@ -13,6 +13,12 @@ header {
   z-index: 5;
 }
 
+@media screen and (max-width: 465px) {
+  .navbar ul li {
+    width: 69px !important;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
 .open {
@@ -32,10 +38,11 @@ header {
 }
 
 nav {
-  margin: 0 !important;
+  width: 73% !important;
+  margin-left: 20% !important;
 }
 .navbar ul li {
-  width: 87px !important;
+  width: 87px;
 }
 
 body {
