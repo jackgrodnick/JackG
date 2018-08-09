@@ -25,22 +25,25 @@
   <body>
     <div class="row">
       <div class="column">
-        <main>
-        <h1>Contact Me</h1>
-           <form class="contact-from" method="post" action="contact-form-handler.php">
-           <input name="name" type="text" class="form-control" placeholder="Full name" required>
-           <input name="mail" type="text" class="form-control" placeholder="Your email" required>
-           <input name="subject" type="text" class="form-control" placeholder="Subject" required>
-           <textarea name="message" class="form-control" placeholder="Message" rows="4"
-           required></textarea>
-           <button type="submit" class="form-control submit" name="submit">sent</button>
-         </form>
-       </main>
+        <h2 class="idke">About Me</h2>
+        <div class="contact-form">
+          <form id="contact-form" method="post" action="send.php">
+            <input name="name" type="text" class="form-control" placeholder="your name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="your email"
+            required><br>
+
+            <textarea name="message" class="form-control" placeholder="Message" row="4"
+            required></textarea><br>
+            <input type="submit" class="form-control submit" value="send">
+          </form>
+        </div>
+
+        </div>
       </div>
       <div class="column">
         <p class="something">Some text..</p>
-      </div>
-    </div>
-  </div>
+
+
   </body>
 </html>
