@@ -8,7 +8,8 @@ body {
 }
 
 header {
-  position: sticky;
+  position: fixed;
+  width: 100%
 }
 
 @media screen and (max-width: 600px) {
@@ -48,11 +49,18 @@ body {
  #home {
 height: 80vh !important;
   }
+
+  .code5 {
+    bottom: 7% !important;
+  }
+  .code4 {
+    bottom: 10% !important;
+  }
 }
 
 .LOGO {
 float: left;
-max-width: 70px;
+max-width: 59px;
 }
 
 
@@ -92,12 +100,12 @@ max-width: 70px;
   line-height: 60px;
   cursor: pointer;
   text-align: center;
-  color: #0fd;
+  color: #08fdd8;
 }
 
 
 #active2 {
-  color: #0fd;
+  color: #08fdd8;
 }
 
 
@@ -158,7 +166,7 @@ nav {
   text-align: center;
   margin-top: 50px;
   font-size: 70px;
-  color: #0fd;
+  color: #08fdd8;
   letter-spacing: 1px;
 }
 
@@ -191,18 +199,18 @@ nav {
 
 #ani:hover {
   animation-name: rubberBand;
-  color: #0fd;
+  color: #08fdd8;
   cursor: default;
 }
 
 #ani:active {
   animation-name: rubberBand;
-  color: #0fd;
+  color: #08fdd8;
 }
 
 #ani:focus {
   animation-name: rubberBand;
-  color: #0fd;
+  color: #08fdd8;
 }
 
 
@@ -243,7 +251,7 @@ nav {
 
 .open3 {
   font-size: 10px;
-  color: #0fd;
+  color: #08fdd8;
   margin: 0;
 }
 
@@ -505,7 +513,7 @@ form {
   width: 600px;
   background: transparent;
   outline: none;
-  border: 1px solid #0fd;
+  border: 1px solid #08fdd8;
   color: #fff;
   font-size: 18px;
 }
@@ -529,18 +537,18 @@ form .submit:hover {
 }
 
 .front-button {
-  border: 1px solid #0fd;
+  border: 1px solid #08fdd8;
   border-radius: 3px;
   background: transparent;
   padding: 8px 12px;
-  color: #0fd;
+  color: #08fdd8;
   font-size: 11px;
   letter-spacing: 4px;
 }
 
 .front-button:hover {
   color: #252627;
-  background-color: #0fd;
+  background-color: #08fdd8;
 }
 
 body {
@@ -555,4 +563,12 @@ body {
 
 header {
 
+}
+
+.jack {
+  color: #08fdd8 !important;
+}
+
+.jack:hover {
+  color: #fc0753 !important;
 }
