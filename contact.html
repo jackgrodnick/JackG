@@ -42,8 +42,19 @@
         </div>
       </div>
       <div class="column">
-        <p class="something">Some text..</p>
+        <div id="map"></div>
 
+<script>
+function initMap() {
+  var location = {lat: 44.954528, lng: -93.443048}
+  var map = new google.maps.Map(document.getElementById("map")), {
+    zoom: 4,
+    center: location
+  });
+}
+AIzaSyBeo9z_TDtqh7hUQVI6GB_DZsxJcC18OvY
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeo9z_TDtqh7hUQVI6GB_DZsxJcC18OvY&callback=initMap"></script>
 
   </body>
 </html>

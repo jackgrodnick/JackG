@@ -191,6 +191,16 @@ nav {
   cursor: default;
 }
 
+#ani:active {
+  animation-name: rubberBand;
+  color: #0fd;
+}
+
+#ani:focus {
+  animation-name: rubberBand;
+  color: #0fd;
+}
+
 
 @keyframes rubberBand {
   from {
@@ -511,5 +521,5 @@ form .submit {
 }
 
 form .submit:hover {
-  
+
 }
