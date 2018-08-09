@@ -9,25 +9,26 @@ body {
 
 header {
   position: fixed;
-  width: 100%
+  width: 100%;
+  z-index: 5;
 }
 
 @media screen and (max-width: 600px) {
 
 .open {
-  font-size: 40px !important;
+  font-size: 48px !important;
 }
 
 .open1 {
-  font-size: 40px !important;
+  font-size: 48px !important;
 }
 
 .open2 {
-  font-size: 40px !important;
+  font-size: 48px !important;
 }
 
 .open3 {
-
+  color: #fff !important;
 }
 
 nav {
@@ -44,6 +45,7 @@ body {
 
 .centerfront {
   line-height: 40px !important;
+  top: 30% !important;
 }
 
  #home {
@@ -51,10 +53,18 @@ height: 80vh !important;
   }
 
   .code5 {
-    bottom: 7% !important;
+    bottom: 22% !important;
+    left: 3% !important;
   }
   .code4 {
-    bottom: 10% !important;
+    bottom: 25% !important;
+  }
+  .code3 {
+    display: none;
+  }
+  .frontpageimg {
+    width: 278px !important;
+    height: 319px !important;
   }
 }
 
@@ -260,18 +270,21 @@ nav {
   font-size: 56px;
   margin: 0;
   font-weight: bold;
+  letter-spacing: -3px;
 }
 
 .open1 {
   font-size: 56px;
   margin: 0;
   font-weight: bold;
+  letter-spacing: -3px;
 }
 
 .open2 {
   font-size: 56px;
   margin: 0;
   font-weight: bold;
+  letter-spacing: -3px;
 }
 
 .centerfront {
@@ -280,6 +293,7 @@ nav {
   left: 10%;
   white-space: nowrap;
   line-height: 53px;
+  z-index: 2;
 }
 
 .code1 {
@@ -565,10 +579,33 @@ header {
 
 }
 
-.jack {
+/* .jack {
   color: #08fdd8 !important;
 }
 
 .jack:hover {
   color: #fc0753 !important;
+} */
+
+.frontpageimg {
+  z-index: 0;
+  width: 370px;
+  height: 609px;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+}
+
+#really-big-logo{
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  animation-delay: 2s;
 }
