@@ -162,8 +162,8 @@ nav {
 }
 .code11 {
   position: absolute;
-  top: 13%;
-  left: 9%;
+  top: 14%;
+  left: 7%;
   font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
     color: #515152;
@@ -214,6 +214,7 @@ left: 3%;
       margin: 0;
 }
 }
+
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
@@ -347,7 +348,7 @@ margin: 0 auto !important;
   margin-top: 10px !important;
   color: #fff;
   letter-spacing: 1px;
-
+  margin: 0 !important;
 }
 
 #about {
@@ -783,54 +784,6 @@ header {
   fill: #0fd;
 }
 
-.preloader {
-    position: fixed;
-    will-change: transform;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #252627;
-    z-index: 2;
-    display: none;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-}
-
-.preloader .inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 400px;
-    max-width: 100%;
-    height: 160px;
-    text-align: center;
-}
-
-.preloader .inner > img {
-    display: block;
-    margin: 0 auto;
-}
-
-.preloader .inner {
-    text-align: center;
-}
-
-.preloader .progress-bar {
-    text-align: left;
-}
-
-.preloader .progress-bar_bg div {
-    height: 1px;
-    background: #08fdd8;
-    width: 0;
-}
-
-
 @media (max-width: 800px) and (orientation: landscape) {
   #rotate {
     position: fixed;
@@ -849,4 +802,12 @@ header {
 
 #rotate {
   display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+.code14 {
+    bottom: 8% !important;
+}
+
 }
