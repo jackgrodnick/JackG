@@ -216,6 +216,15 @@ left: 3%;
 }
 
 /* Create two equal columns that floats next to each other */
+.column-1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: 0;
+}
+
+/* Create two equal columns that floats next to each other */
 .column {
     float: left;
     width: 50%;
@@ -314,6 +323,14 @@ left: 3%;
       /*  height: 10% !important; */
     }
     .column2 {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column-1 {
         width: 100%;
     }
 
@@ -733,11 +750,11 @@ form {
 
 .form-control {
   width: 600px;
-  background: transparent;
+  background: #37393b;
   outline: none;
-  border: 1px solid #08fdd8;
-  color: #fff;
+  color: #8d8d8d;
   font-size: 18px;
+  border: transparent;
 }
 
 input {
@@ -745,17 +762,20 @@ input {
 }
 
 form .submit {
-  background: #ff5722;
-  border-color: transparent;
-  color: #fff;
+  background-color: transparent;
+  border: 1px solid #08fdd8;
+  color: #08fdd8;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
-  height: 50px;
+  width: 55px;
+  height: 40px;
+  border-radius: 3px;
 }
 
 form .submit:hover {
-
+  background-color: #08fdd8;
+  color: #252627 !important;
 }
 
 .front-button {
@@ -786,14 +806,7 @@ body {
 header {
 
 }
-
-/* .jack {
-  color: #08fdd8 !important;
-}
-
-.jack:hover {
-  color: #fc0753 !important;
-} */
+/* */
 
 .frontpageimg {
   z-index: 0;
@@ -852,4 +865,59 @@ header {
     bottom: 8% !important;
 }
 
+}
+
+#name {
+  width: 49%;
+  padding: 10px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+#email {
+  width: 49%;;
+  padding: 10px;
+  margin-left: -3px;
+  margin-bottom: 2%;
+}
+
+#subject {
+  padding: 10px;
+  width: 100%;
+    margin-bottom: 2%;
+}
+
+#message {
+  padding: 10px;
+  width: 100%;
+    margin-bottom: 2%;
+    height: 150px;
+}
+
+#submit {
+  width: 100px;
+    float: right;
+    margin-bottom: 2%;
+    margin-top: -3px;
+}
+
+#thing-for-thing {
+  width: 80%;
+  margin-left: 10%;
+  white-space: nowrap;
+}
+
+
+#sit {
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+#thecenter {
+  height: 0 !important;
+  position: absolute;
+width: 100%;
+top: 25%;
+}
 }

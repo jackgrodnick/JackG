@@ -30,40 +30,41 @@
 </div>
 </header>
   <body>
+    <div id="thecenter">
     <div class="row">
       <div class="column">
         <h2 class="idke">About Me</h2>
         <div class="contact-form">
           <form id="contact-form" method="post" action="send.php">
-            <input name="name" type="text" class="form-control" placeholder="your name" required>
-            <br>
-            <input name="email" type="email" class="form-control" placeholder="your email"
+            <div id="thing-for-thing">
+            <input id="name" name="name" type="text" class="form-control" placeholder="Name" required>
+            <input id="email" name="email" type="email" class="form-control" placeholder="Email"
             required><br>
-
-            <textarea name="message" class="form-control" placeholder="Message" row="4"
+          </div>
+            <div id="thing-for-thing">
+            <input id="subject" name="subject" type="subject" class="form-control" placeholder="Subject" required><br>
+</div>
+           <div id="thing-for-thing">
+           <textarea id="message" name="message" class="form-control" placeholder="Message" row="4"
             required></textarea><br>
-            <input type="submit" class="form-control submit" value="send">
+          </div>
+            <div id="sit">
+            <input id="submit" type="submit" class="form-control submit" value="send">
+          </div>
           </form>
         </div>
 
         </div>
       </div>
-      <div class="column">
+    </div>
+      <div class="column-1">
         <div id="map"></div>
       </div>
     </div>
 
 <script>
-function initMap() {
-  var location = {lat: 44.954528, lng: -93.443048}
-  var map = new google.maps.Map(document.getElementById("map")), {
-    zoom: 4,
-    center: location
-  });
-}
-AIzaSyBeo9z_TDtqh7hUQVI6GB_DZsxJcC18OvY
+
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeo9z_TDtqh7hUQVI6GB_DZsxJcC18OvY&callback=initMap"></script>
 
   </body>
 </html>
