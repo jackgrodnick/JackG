@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- This stylesheet contains specific styles for displaying
-         the map on this page. Replace it with your own styles as
-         described in the documentation:
-         https://developers.google.com/maps/documentation/javascript/tutorial
-    -->
-    <link rel="stylesheet" href="/maps/documentation/javascript/cgc/demos.css">
+    <style>
+       /* Set the size of the div element that contains the map */
+       * {
+         padding: 0;
+         margin: 0;
+       }
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
   </head>
   <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
     <div id="map"></div>
     <script>
-      function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
-
-        // Create a map object and specify the DOM element
-        // for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          zoom: 4 
-        });
-
-        // Create a marker and set its position.
-        var marker = new google.maps.Marker({
-          map: map,
-          position: myLatLng,
-          title: 'Hello World!'
-        });
-      }
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 44.954519, lng: -93.442907};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeo9z_TDtqh7hUQVI6GB_DZsxJcC18OvY&callback=initMap"
-        async defer></script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrqlvRjuo1LP6iE_wPYqC52qge54_FTiQ&callback=initMap">
+    </script>
   </body>
 </html>

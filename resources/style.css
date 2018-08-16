@@ -745,7 +745,6 @@ z-index: 1;
 
 form {
   margin-top: 50px;
-  transition: all 4s ease-in-out;
 }
 
 .form-control {
@@ -918,6 +917,26 @@ header {
   height: 0 !important;
   position: absolute;
 width: 100%;
-top: 25%;
+top: 15%;
 }
+
+
+
+#idke {
+  margin-left: 10%;
+  color: #08fdd8;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+#p-idke {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: -40px;
+  width: 80%;
+}
+
+#words {
+  width: 100%;
+  margin-left: 10%;
 }
