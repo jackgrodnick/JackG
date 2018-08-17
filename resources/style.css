@@ -318,6 +318,9 @@ left: 3%;
 }
 
 @media screen and (max-width: 1024px) {
+  #map {
+    margin-bottom: 200px !important;
+  }
     .column1 {
         width: 100%;
       /*  height: 10% !important; */
@@ -335,9 +338,10 @@ left: 3%;
     }
 
     .column-1 {
-        width: 100% !important;
+        width: 90% !important;
         position: absolute;
         top: 100%;
+        left: 5%;
     }
 
     .about-me {
