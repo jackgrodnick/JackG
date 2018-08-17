@@ -437,7 +437,10 @@ margin: 0 auto !important;
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
+  color: #08fdd8;
+  cursor: default;
 }
+
 
 .open3 {
   font-size: 10px;
@@ -834,9 +837,7 @@ header {
   max-width: 35px;
 }
 
-.home-thing:hover {
-  fill: #0fd;
-}
+
 
 @media (max-width: 800px) and (orientation: landscape) {
   #rotate {
@@ -873,11 +874,25 @@ header {
   margin-bottom: 2%;
 }
 
+#name:hover {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+    border-bottom: 1px solid #08fdd8;
+}
+
 #email {
   width: 49%;;
   padding: 10px;
   margin-left: -3px;
   margin-bottom: 2%;
+}
+
+#email:hover {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+    border-bottom: 1px solid #08fdd8;
 }
 
 #subject {
@@ -886,11 +901,25 @@ header {
     margin-bottom: 2%;
 }
 
+#subject:hover {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+    border-bottom: 1px solid #08fdd8;
+}
+
 #message {
   padding: 10px;
   width: 100%;
     margin-bottom: 2%;
     height: 150px;
+}
+
+#message:hover {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+    border-bottom: 1px solid #08fdd8;
 }
 
 #submit {
@@ -912,6 +941,10 @@ header {
   margin-left: 10%;
 }
 
+#managemaps {
+  width: 50%;
+  float: right;
+}
 
 #thecenter {
   height: 0 !important;
@@ -940,3 +973,8 @@ top: 15%;
   width: 100%;
   margin-left: 10%;
 }
+
+#map {
+  height: 100vh;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
