@@ -998,4 +998,7 @@ top: 15%;
   #name {
     width: 100% !important;
   }
+  .about-me {
+    font-size: 50px !important;
+  }
 }
