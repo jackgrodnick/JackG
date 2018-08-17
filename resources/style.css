@@ -327,11 +327,17 @@ left: 3%;
     }
 
     .column {
-        width: 100%;
+        width: 100% !important;
+    }
+
+    #managemaps {
+      width: 100% !important;
     }
 
     .column-1 {
-        width: 100%;
+        width: 100% !important;
+        position: absolute;
+        top: 100%;
     }
 
     .about-me {
@@ -970,7 +976,7 @@ top: 15%;
 }
 
 #words {
-  width: 100%;
+  /* width: 100%; */
   margin-left: 10%;
 }
 
@@ -979,3 +985,17 @@ top: 15%;
   width: 100%;  /* The width is the width of the web page */
   background-color: red;
  }
+
+
+@media screen and (max-width: 600px) {
+  #thing-for-thing {
+    white-space: normal !important;
+  }
+  #email {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  #name {
+    width: 100% !important;
+  }
+}
