@@ -1001,4 +1001,11 @@ top: 15%;
   .about-me {
     font-size: 50px !important;
   }
+  #idke {
+    font-size: 50px !important;
+    margin-top: 0px;
+  }
+  #p-idke {
+    width: 89%;
+  }
 }
