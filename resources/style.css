@@ -1091,3 +1091,11 @@ font-weight: 100;
 margin: 0;
 paddind;
 }
+
+.gm-control-active gm-fullscreen-control {
+  display: none;
+}
+
+.gmnoprint {
+  display: none;
+}
