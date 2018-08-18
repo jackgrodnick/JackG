@@ -961,7 +961,7 @@ header {
   height: 0 !important;
   position: absolute;
 width: 100%;
-top: 15%;
+top: 20%;
 }
 
 
@@ -1007,7 +1007,7 @@ top: 15%;
     font-size: 50px !important;
   }
   #idke {
-    font-size: 50px !important;
+    font-size: 40px !important;
     margin-top: 0px;
   }
   #p-idke {
@@ -1077,4 +1077,16 @@ top: 15%;
       padding: 20px;
       width: 100%;
   }
+}
+
+
+.code21 {
+  position: absolute;
+top: 14%;
+left: 7%;
+font-family: 'La Belle Aurore', cursive;
+font-size: 20px;
+color: #515152;
+font-weight: 100;
+margin: 0;
 }
