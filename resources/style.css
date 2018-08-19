@@ -26,17 +26,23 @@ header {
 }
 
 @media screen and (max-width: 600px) {
+#jack5 {
+  max-width: 26px !important;
+}
 
 .open {
-  font-size: 40px !important;
+  font-size: 21px !important;
+  letter-spacing: -4px !important;
 }
 
 .open1 {
-  font-size: 40px !important;
+  font-size: 21px !important;
+  letter-spacing: -4px !important;
 }
 
 .open2 {
-  font-size: 40px !important;
+  font-size: 21px !important;
+  letter-spacing: -4px !important;
 }
 
 .open3 {
@@ -397,24 +403,6 @@ margin: 0 auto !important;
   animation-fill-mode: both;
   animation-iteration-count: 1;
 }
-
-#ani:hover {
-  animation-name: rubberBand;
-  color: #08fdd8;
-  cursor: default;
-}
-
-#ani:active {
-  animation-name: rubberBand;
-  color: #08fdd8;
-}
-
-#ani:focus {
-  animation-name: rubberBand;
-  color: #08fdd8;
-}
-
-
 @keyframes rubberBand {
   from {
     transform: scale3d(1, 1, 1);
@@ -461,24 +449,24 @@ margin: 0 auto !important;
 
 
 .open {
-  font-size: 56px;
+  font-size: 28px;
   margin: 0;
   font-weight: bold;
-  letter-spacing: -3px;
+  letter-spacing: -5px;
 }
 
 .open1 {
-  font-size: 56px;
+  font-size: 28px;
   margin: 0;
   font-weight: bold;
-  letter-spacing: -3px;
+  letter-spacing: -5px;
 }
 
 .open2 {
-  font-size: 56px;
+  font-size: 28px;
   margin: 0;
   font-weight: bold;
-  letter-spacing: -3px;
+  letter-spacing: -5px;
 }
 
 .centerfront {
@@ -486,7 +474,7 @@ margin: 0 auto !important;
   top: 35%;
   left: 10%;
   white-space: nowrap;
-  line-height: 53px;
+  line-height: 44px;
   z-index: 2;
   color: #fff;
 }
@@ -516,8 +504,8 @@ font-weight: 100;
 .code3 {
   margin: 0;
 position: absolute;
-left: 102%;
-bottom: 33%;
+left: 104%;
+bottom: 30%;
 font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
 color: #515152;
@@ -628,17 +616,17 @@ z-index: 1;
 }
 
 #ani1 {
-  animation-duration: 0.3s !important;
+  animation-duration: 0.9s !important;
   animation-delay: 0.2s !important;
 }
 
 #ani2 {
-  animation-duration: 0.3s !important;
+  animation-duration: 0.9s !important;
   animation-delay: 0.3s !important;
 }
 
 #ani3 {
-  animation-duration: 0.3s !important;
+  animation-duration: 0.9s !important;
   animation-delay: 0.4s !important;
 }
 
@@ -745,6 +733,16 @@ z-index: 1;
 #ani24 {
   animation-duration: 0.3s !important;
   animation-delay: 2.5s !important;
+}
+
+#ani25 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.6s !important;
+}
+
+#ani26 {
+  animation-duration: 0.3s !important;
+  animation-delay: 2.7s !important;
 }
 
 .thefrontpage {
@@ -1098,4 +1096,163 @@ paddind;
 
 .gmnoprint {
   display: none;
+}
+
+.ani {
+  display: inline-block;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  text-decoration: none;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  margin: 0 !important;
+}
+
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  color: #08fdd8;
+  cursor: default;
+}
+
+.classd {
+  visibility: hidden;
+}
+
+
+#jack5 {
+  max-width: 35px;
+}
+
+
+@-webkit-keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
 }
