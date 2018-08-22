@@ -33,7 +33,20 @@
     <div id="thecenter">
     <div class="row">
       <div class="column">
-        <h1 id="idke">Contact me</h1>
+        <div class="about-me" id="contactme">
+          <h1 class="code22"><span><</span>h1></h1>
+          <span onclick="myFunction()" id="ani1" class="bounceIn animated delay-2s"><h1 class="ani">C</h1></span>
+          <span onclick="myFunction()" id="ani2" class="bounceIn animated delay-2s"><h1 class="ani">o</h1></span>
+          <span onclick="myFunction()" id="ani3" class="bounceIn animated delay-2s"><h1 class="ani">n</h1></span>
+          <span onclick="myFunction()" id="ani4" class="bounceIn animated delay-2s"><h1 class="ani">t</h1></span>
+          <span onclick="myFunction()" id="ani5" class="bounceIn animated delay-2s"><h1 class="ani">a</h1></span>
+          <span onclick="myFunction()" id="ani5" class="bounceIn animated delay-2s"><h1 class="ani">c</h1></span>
+          <span onclick="myFunction()" id="ani5" class="bounceIn animated delay-2s"><h1 class="ani">t</h1></span>
+          <span onclick="myFunction()" id="ani1" class="classd"><h1 class="ani">i</h1></span>
+          <span onclick="myFunction()" id="ani6" class="bounceIn animated delay-2s"><h1 class="ani">m</h1></span>
+          <span onclick="myFunction()" id="ani7" class="bounceIn animated delay-2s"><h1 class="ani">e</h1></span>
+          <h1 class="code23"><span><</span>/h1></h1>
+      </div>
         <div id="words">
         <p id="p-idke">Please don't hesitate to ask me any of your concerns or questions you might have below...</p>
       </div>
@@ -74,6 +87,47 @@
     <div id="rotate"><img id="rotate" src="./resources/images/re54.png" alt="nono"></div>
   </div>
    <script>
+   // get all matching elements for our class
+ let elements = document.getElementsByClassName('ani');
+
+ // handles restarting the animcation by removing our class
+ // and adding it back again (note we have to use the reflow trigger
+ // hack to make this work)
+ let listener = (event) => {
+   event.target.classList.remove('rubberBand');
+   event.target.offsetWidth;
+   event.target.classList.add('rubberBand');
+ };
+
+ // iterate through our matching elements and setup
+ // our event listeners
+ for (let i = 0; i < elements.length; i++) {
+   let element = elements[i];
+
+   // add event listener to start the animation
+   element.addEventListener('mouseover', (event) => {
+     // adding our animation class will run the animation
+     event.target.classList.add('rubberBand');
+
+     // restart the animation once it ends
+     //event.target.addEventListener('animationend', listener);
+   });
+
+   // we now need to end our animation
+   element.addEventListener('mouseout', (event) => {
+     // stop restarting our animation
+     //event.target.removeEventListener('animationend', listener);
+
+     // and then wait for the final animation to end
+     event.target.addEventListener('animationend', (event) => {
+       // and remove the animation class so everything is back to normal
+       event.target.classList.remove('rubberBand');
+     });
+   });
+ }
+ function myFunction() {
+   document.getElementById("ani");
+ }
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
