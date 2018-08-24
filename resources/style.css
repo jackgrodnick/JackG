@@ -206,7 +206,7 @@ nav {
 .code14 {
   left: 10%;
   position: absolute;
-  top: 126%;
+  top: 109%;
   font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
     color: #515152;
@@ -216,7 +216,7 @@ nav {
 
 .code15 {
   position: absolute;
-    top: 129%;
+    top: 112%;
     left: 7%;
       font-family: 'La Belle Aurore', cursive;
       font-size: 20px;
@@ -847,6 +847,15 @@ header {
 
 }
 
+@media screen and (max-width: 1024px) {
+  .code15 {
+    top: 140% !important;
+  }
+  .code14 {
+    top: 136% !important;
+  }
+}
+
 #name {
   width: 49%;
   padding: 10px;
@@ -1001,12 +1010,13 @@ top: 20%;
 #address {
   position: absolute;
   top: 16%;
-  right: 16%;
+  right: 2%;
   font-size: 17px;
   color: #fff;
   background-color: black;
   padding: 20px;
 }
+
 
 .idkk {
   color: #08fdd8;
@@ -1242,7 +1252,6 @@ paddind;
     width: 50%;
     float: left;
     padding: 15px;
-    border: 1px solid red;
     padding: 0px;
     padding-left: 10%;
 }
@@ -1250,7 +1259,6 @@ paddind;
     width: 50%;
     float: left;
     padding: 15px;
-    border: 1px solid red;
 }
 @media screen and (max-width: 1024px) {
   .menu {
@@ -1292,4 +1300,23 @@ margin-bottom: -18px;
     margin: 0;
     letter-spacing: 0px;
     margin-top: -14px;
+}
+
+#thin {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff !important;
+  margin: 2px !important;
+  letter-spacing: 0px;
+}
+
+.mailformee {
+  color: white;
+  text-decoration: none;
+}
+
+.mailformee:hover {
+  color: #08fdd8;
 }
