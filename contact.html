@@ -51,25 +51,12 @@
         <p id="p-idke">Please don't hesitate to ask me any of your concerns or questions you might have below...</p>
       </div>
         <div class="contact-form">
-          <form id="contact-form" method="post" action="contact-form-handler.php">
-            <div id="thing-for-thing">
-            <input id="name" name="name" type="text" class="form-control" placeholder="Name" required>
-            <input id="email" name="email" type="email" class="form-control" placeholder="Email"
-            required><br>
-          </div>
-            <div id="thing-for-thing">
-            <input id="subject" name="subject" type="subject" class="form-control" placeholder="Subject" required><br>
-</div>
-           <div id="thing-for-thing">
-           <textarea id="message" name="message" class="form-control" placeholder="Message" row="4"
-            required></textarea><br>
-          </div>
-            <div id="sit">
-            <input id="submit" type="submit" class="form-control submit" value="send">
-          </div>
+          <form method="POST" action="https://formspree.io/jack.grodnick@gmail.com">
+            <input type="text" name="_replyto" placeholder="Your email" />
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
           </form>
         </div>
-
         </div>
       </div>
     </div>
