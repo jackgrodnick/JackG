@@ -1479,8 +1479,10 @@ font-family: 'Lato', sans-serif;
     color: #515152;
     font-weight: 100;
     width: 50%;
-    display: block !important;
+    display: block !important;    
+    margin-top: 50px;
 }
+
 .code25 {
     margin: 0;
     position: relative !important;
