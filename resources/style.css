@@ -353,6 +353,7 @@ nav {
         position: absolute;
         top: 125%;
         left: 10%;
+        display: none !important;
     }
 
     .about-me {
@@ -753,6 +754,7 @@ form .submit {
   width: 55px;
   height: 40px;
   border-radius: 3px;
+  font-family: 'Robot', sans-serif !important;
 }
 
 form .submit:hover {
@@ -863,12 +865,6 @@ header {
   margin-bottom: 0;
 }
 
-#name:hover {
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-right: 0px !important;
-    border-bottom: 1px solid #08fdd8;
-}
 
 #email {
   width: 100%;;
@@ -877,24 +873,10 @@ header {
   margin-top: 2%;
 }
 
-#email:hover {
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-right: 0px !important;
-    border-bottom: 1px solid #08fdd8;
-}
-
 #subject {
   padding: 10px;
   width: 100%;
     margin-top: 2%;
-}
-
-#subject:hover {
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-right: 0px !important;
-    border-bottom: 1px solid #08fdd8;
 }
 
 #message {
@@ -905,6 +887,7 @@ header {
     border: 0px solid #000000;
     display: inline;
     text-decoration: none;
+    margin-bottom: -4px;
 
 }
 
@@ -951,13 +934,15 @@ li a {
   display: block;
   width: 0;
   height: 2px;
-  background: #fff;
+  background: #08fdd8;
   transition: width .3s;
+  z-index: 9999999;
 }
 
-.cool-link:hover::after {
+.cool-link:focus-within::after {
   width: 100%;
   transition: width .3s;
+  z-index: 999999;
 }
 
 .cool-link1::after {
@@ -965,13 +950,15 @@ li a {
   display: block;
   width: 0;
   height: 2px;
-  background: #fff;
+  background: #08fdd8;
   transition: width .3s;
+  z-index: 9999999;
 }
 
-.cool-link1:hover::after {
+.cool-link1:focus::after {
   width: 100%;
   transition: width .3s;
+  z-index: 999999999;
 }
 
 .cool-link2::after {
@@ -979,13 +966,15 @@ li a {
   display: block;
   width: 0;
   height: 2px;
-  background: #fff;
+  background: #08fdd8;
   transition: width .3s;
+  z-index: 999999999999;
 }
 
-.cool-link2:hover::after {
+.cool-link2:focus::after {
   width: 100%;
   transition: width .3s;
+  z-index: 9999999999
 }
 
 
@@ -1142,7 +1131,7 @@ top: 20%;
 .code21 {
   position: absolute;
 top: 14%;
-left: 3%;
+left: 5%;
 font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
 color: #515152;
@@ -1423,26 +1412,90 @@ font-family: 'Lato', sans-serif;
 }
 
 
+@media screen and (min-width: 1024px) {
+  .code241 {
+      margin: 0;
+      position: absolute;
+      left: 5%;
+      bottom: 15%;
+      font-family: 'La Belle Aurore', cursive;
+      font-size: 20px;
+      color: #515152;
+      font-weight: 100;
+  }
+.code251 {
+  margin: 0;
+  position: absolute;
+  left: 3%;
+  bottom: 12%;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 20px;
+  color: #515152;
+  font-weight: 100;
+}
+.code25 {
+  display: none;
+}
+.code24 {
+  display: none;
+}
+}
+
 @media screen and (max-width: 1024px) {
-  .code24 {
+  .code241 {
     margin: 0;
     position: absolute;
-    left: 7%;
-    bottom: -102%;
+    left: 5%;
+    bottom: 15%;
     font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
     color: #515152;
     font-weight: 100;
 }
-.code25 {
+.code251 {
     margin: 0;
     position: absolute;
-    left: 4%;
-    bottom: -105%;
+    left: 3%;
+    bottom: 12%;
     font-family: 'La Belle Aurore', cursive;
     font-size: 20px;
     color: #515152;
     font-weight: 100;
+}
+.code24 {
+  display: none;
+}
+.code25 {
+  display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .code24 {
+    margin: 0;
+    position: relative !important;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 20px;
+    color: #515152;
+    font-weight: 100;
+    width: 50%;
+    display: block !important;
+}
+.code25 {
+    margin: 0;
+    position: relative !important;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 20px;
+    color: #515152;
+    font-weight: 100;
+    width: 50%;
+    display: block !important;
+}
+.code251 {
+  display: none;
+}
+.code241 {
+  display: none;
 }
 }
 
@@ -1465,3 +1518,20 @@ font-family: 'Lato', sans-serif;
     min-height: 566px;
     position: absolute;
 } */
+
+.newsubmit {
+  margin-top: 10px;
+    border: 1px solid #08fdd8;
+    border-radius: 3px;
+    background: transparent;
+    padding: 8px 12px;
+    color: #08fdd8;
+    font-size: 11px;
+    letter-spacing: 4px;
+    float: right;
+}
+
+.newsubmit:hover {
+    color: #252627;
+    background-color: #08fdd8;
+}
