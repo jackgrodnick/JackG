@@ -15,15 +15,6 @@
     <link rel="stylesheet" href="./resources/images/svg/font/flaticon.css">
   </hgroup>
   </head>
-  <div id="loader-wrapper">
-  <div id="loader"></div>
-
-  <div class="loader-section section-left"></div>
-  <div class="loader-section section-right"></div>
-
-</div>
-
-<div id="content">
   <div id="home">
   <header class="header-1">
   <div class="LOGO2">
@@ -40,6 +31,15 @@
 </div>
 </header>
   <body>
+    <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div>
+
+  <div id="content">
     <h5 class="code1"> <span><</span>body></h5>
     <div class="thefrontpage">
     <span class="h12">
@@ -98,7 +98,7 @@ $(document).ready(function() {
   // Fakes the loading setting a timeout
     setTimeout(function() {
         $('body').addClass('loaded');
-    }, );
+    }, 1500);
 
 });
 </script>
