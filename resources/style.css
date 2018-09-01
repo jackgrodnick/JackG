@@ -1533,10 +1533,7 @@ font-family: 'Lato', sans-serif;
 
 /* Demo Styles */
 #content {
-  margin: 0 auto;
   padding-bottom: 50px;
-  width: 80%;
-  max-width: 978px;
 }
 
 /* The Loader */
