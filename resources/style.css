@@ -1557,13 +1557,13 @@ font-family: 'Lato', sans-serif;
   display: block;
   position: relative;
   left: 50%;
-  top: 50%;
+  top: 65%;
   width: 150px;
   height: 150px;
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #16a085;
+  border-top-color: #08fdd8;
   -webkit-animation: spin 1.7s linear infinite;
           animation: spin 1.7s linear infinite;
   z-index: 11;
@@ -1577,7 +1577,7 @@ font-family: 'Lato', sans-serif;
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: #fff;
   -webkit-animation: spin-reverse .6s linear infinite;
           animation: spin-reverse .6s linear infinite;
 }
@@ -1590,7 +1590,7 @@ font-family: 'Lato', sans-serif;
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922;
+  border-top-color: #fc0753;
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }
@@ -1636,7 +1636,7 @@ font-family: 'Lato', sans-serif;
   top: 0;
   width: 51%;
   height: 100%;
-  background: #222;
+  background: #252627;
   z-index: 10;
 }
 
@@ -1672,3 +1672,35 @@ font-family: 'Lato', sans-serif;
           transform: translateY(-100%);
   transition: all 0.3s 1s ease-out;
 }
+
+#jackisthinking {
+    font-weight: 100;
+    font-size: 10px;
+    color: white;
+    z-index: 100000000;
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 51%;
+    margin: -75px 0 0 -44px;
+}
+
+.loaded #jackisthinking {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+#dd {
+      width: 40px;
+      z-index: 1212323123;
+      display: block;
+      position: relative;
+      left: 50%;
+      top: 40%;
+      margin: -75px 0 0 -23px;
+    }
+
+    .loaded #dd {
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
