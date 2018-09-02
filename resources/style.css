@@ -1705,3 +1705,34 @@ font-family: 'Lato', sans-serif;
 #inbeta {
   position: absolute;
 }
+
+
+#Layer_1 {
+  position: relative;
+  top: 10%;
+  fill: #08fdd8;
+}
+
+#Layer_2 {
+  position: relative;
+  top: 10%;
+  fill: #4d4d4e;
+}
+
+#Layer_3 {
+  position: relative;
+  top: 10%;
+  fill: #4d4d4e;
+}
+
+#Layer_2:hover {
+  position: relative;
+  top: 10%;
+  fill: #08fdd8;
+}
+
+#Layer_3:hover {
+  position: relative;
+  top: 10%;
+  fill: #08fdd8;
+}
