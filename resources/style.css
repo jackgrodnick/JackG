@@ -1728,10 +1728,94 @@ font-family: 'Lato', sans-serif;
 #Layer_2:hover {
   position: relative;
   top: 10%;
+  -webkit-transition: fill 0.2s ease-out;
+-moz-transition: fill 0.2s ease-out;
+-o-transition: fill 0.2s ease-out;
+transition: fill 0.2s ease-out;
   fill: #08fdd8;
 }
 
 #Layer_3:hover {
+  position: relative;
+  top: 10%;
+  -webkit-transition: fill 0.2s ease-out;
+-moz-transition: fill 0.2s ease-out;
+-o-transition: fill 0.2s ease-out;
+transition: fill 0.2s ease-out;
+  fill: #08fdd8;
+}
+
+#Layer_5 {
+  position: relative;
+  top: 10%;
+  fill: #08fdd8;
+}
+
+#Layer_4:hover {
+  position: relative;
+  top: 10%;
+  -webkit-transition: fill 0.2s ease-out;
+-moz-transition: fill 0.2s ease-out;
+-o-transition: fill 0.2s ease-out;
+transition: fill 0.2s ease-out;
+  fill: #08fdd8;
+}
+
+#Layer_6:hover {
+  position: relative;
+  top: 10%;
+  -webkit-transition: fill 0.2s ease-out;
+-moz-transition: fill 0.2s ease-out;
+-o-transition: fill 0.2s ease-out;
+transition: fill 0.2s ease-out;
+  fill: #08fdd8;
+}
+
+#Layer_6 {
+  position: relative;
+  top: 10%;
+  fill: #4d4d4e;
+}
+
+#Layer_4 {
+  position: relative;
+  top: 10%;
+  fill: #4d4d4e;
+}
+
+#Layer_7:hover {
+  position: relative;
+  top: 10%;
+  -webkit-transition: fill 0.2s ease-out;
+-moz-transition: fill 0.2s ease-out;
+-o-transition: fill 0.2s ease-out;
+transition: fill 0.2s ease-out;
+  fill: #08fdd8;
+}
+
+#Layer_7 {
+  position: relative;
+  top: 10%;
+  fill: #4d4d4e;
+}
+
+#Layer_8:hover {
+  position: relative;
+  top: 10%;
+  -webkit-transition: fill 0.2s ease-out;
+-moz-transition: fill 0.2s ease-out;
+-o-transition: fill 0.2s ease-out;
+transition: fill 0.2s ease-out;
+  fill: #08fdd8;
+}
+
+#Layer_8 {
+  position: relative;
+  top: 10%;
+  fill: #4d4d4e;
+}
+
+#Layer_9 {
   position: relative;
   top: 10%;
   fill: #08fdd8;
