@@ -1605,6 +1605,14 @@ font-family: 'Lato', sans-serif;
     margin: -75px 0 0 -44px;
 }
 
+@media screen and (max-width: 1024px) {
+  #jackisthinking {
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: -75px 0 0 -64px;
+  }
+}
+
 .loaded #jackisthinking {
     opacity: 0;
     transition: all 0.3s ease-out;
