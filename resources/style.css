@@ -1124,22 +1124,27 @@ top: 20%;
 .code21 {
   position: absolute;
 top: 14%;
-left: 5%;
+left: 3%;
 font-family: 'La Belle Aurore', cursive;
 font-size: 20px;
 color: #515152;
 font-weight: 100;
 margin: 0;
-paddind;
 }
 
-.gm-control-active gm-fullscreen-control {
-  display: none;
+@media screen and (max-width: 1024px) {
+  .code21 {
+    position: absolute;
+  top: 14%;
+  left: 5% ;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 20px;
+  color: #515152;
+  font-weight: 100;
+  margin: 0;
+  }
 }
 
-.gmnoprint {
-  display: none;
-}
 
 .ani {
   display: inline-block;
@@ -1404,66 +1409,7 @@ font-family: 'Lato', sans-serif;
     font-weight: 100;
 }
 
-
-@media screen and (min-width: 1024px) {
-  .code241 {
-      margin: 0;
-      position: absolute;
-      left: 5%;
-      bottom: 15%;
-      font-family: 'La Belle Aurore', cursive;
-      font-size: 20px;
-      color: #515152;
-      font-weight: 100;
-  }
-.code251 {
-  margin: 0;
-  position: absolute;
-  left: 3%;
-  bottom: 12%;
-  font-family: 'La Belle Aurore', cursive;
-  font-size: 20px;
-  color: #515152;
-  font-weight: 100;
-}
-.code25 {
-  display: none;
-}
-.code24 {
-  display: none;
-}
-}
-
-@media screen and (max-width: 1024px) {
-  .code241 {
-    margin: 0;
-    position: absolute;
-    left: 5%;
-    bottom: 15%;
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 20px;
-    color: #515152;
-    font-weight: 100;
-}
-.code251 {
-    margin: 0;
-    position: absolute;
-    left: 3%;
-    bottom: 12%;
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 20px;
-    color: #515152;
-    font-weight: 100;
-}
-.code24 {
-  display: none;
-}
-.code25 {
-  display: none;
-}
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1px) {
   .code24 {
     margin: 0;
     position: relative !important;
@@ -1486,33 +1432,7 @@ font-family: 'Lato', sans-serif;
     width: 50%;
     display: block !important;
 }
-.code251 {
-  display: none;
 }
-.code241 {
-  display: none;
-}
-}
-
-/* @media (max-width: 960px) {
-.container {
-    width: 100%;
-    height: auto;
-    padding-bottom: 58px;
-    box-sizing: border-box;
-    position: relative;
-    top: 0px;
-    overflow: hidden;
-}
-}
-
-.container {
-    width: 100%;
-    will-change: contents;
-    height: 90%;
-    min-height: 566px;
-    position: absolute;
-} */
 
 .newsubmit {
   margin-top: 10px;
@@ -1545,6 +1465,7 @@ font-family: 'Lato', sans-serif;
   height: 100%;
   z-index: 10;
   overflow: hidden;
+  transition: all 1s ease-in;
 }
 .no-js #loader-wrapper {
   display: none;
@@ -1639,10 +1560,12 @@ font-family: 'Lato', sans-serif;
 
 #loader-wrapper .loader-section.section-left {
   left: 0;
+  width: 0%;
 }
 
 #loader-wrapper .loader-section.section-right {
   right: 0;
+  width: 100%;
 }
 
 /* Loaded styles */
