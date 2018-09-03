@@ -446,7 +446,6 @@ margin: 0 auto !important;
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
-  color: #08fdd8;
   cursor: default;
 }
 
@@ -1194,7 +1193,6 @@ margin: 0;
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
-  color: #08fdd8;
   cursor: default;
 }
 
@@ -1609,7 +1607,7 @@ font-family: 'Lato', sans-serif;
   #jackisthinking {
     font-weight: 600;
     letter-spacing: 2px;
-    margin: -75px 0 0 -64px;
+    margin: -75px 0 0 -60px;
   }
 }
 
@@ -1759,4 +1757,9 @@ transition: fill 0.2s ease-out;
 
 .loaded #content {
   display: block !important;
+}
+
+
+.hoveronletter:hover {
+  color: #08fdd8;
 }
