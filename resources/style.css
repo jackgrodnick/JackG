@@ -1743,3 +1743,12 @@ transition: fill 0.2s ease-out;
   top: 10%;
   fill: #08fdd8;
 }
+
+
+#content {
+  display: none;
+}
+
+.loaded #content {
+  display: block !important;
+}
