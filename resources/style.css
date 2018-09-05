@@ -1566,6 +1566,16 @@ font-family: 'Lato', sans-serif;
   width: 100%;
 }
 
+#loader-wrapper .loader-section.section-left {
+  left: 0;
+  width: 0%;
+}
+
+#loader-wrapper .loader-section.section-right {
+  right: 0;
+  width: 100%;
+}
+
 /* Loaded styles */
 .loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
@@ -1766,4 +1776,9 @@ transition: fill 0.2s ease-out;
 
 .thisthing8:hover {
   color: #515152 !important;
+}
+
+#loader-wrapper .woodwork .loader-section.section-left {
+  left: 0;
+  width: 100% !important;
 }
