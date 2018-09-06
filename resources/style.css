@@ -1798,3 +1798,123 @@ transition: fill 0.2s ease-out;
     background: linear-gradient(to right, lightblue, tomato);
   }
 }
+
+#navbarrr {
+  display: none;
+  font-size: 15px;
+  background: #181818;
+  top: 70px; /*  height of header */
+  position: fixed;
+  width: 100%;
+  padding: 16px;
+  left: 0;
+}
+
+.navbar-handle {
+    font-size: 36px;
+    /* cursor: pointer; */
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: 11px;
+      color: #08fdd8;
+}
+
+#navbarrr.nav-menu-open {
+      height: 70px;
+    display: block;
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+
+#navbarrr a {
+  text-decoration: none;
+}
+
+
+#main-doc {
+  margin-top: 60px; /*height of header(40px) + a little space(20px) */
+  padding: 0 20px;
+}
+
+/* offsetting an html anchor to adjust for fixed header */
+section:target:before {
+  content:'';
+  display:block;
+  height:1px; /* just so the h2 margin-top will have effect */
+}
+
+.lid {
+  width: auto !important;
+}
+
+#navbarrr {
+  position: absolute;
+  left: 100%;
+  width: 100px;
+  height: 70px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.1s;
+}
+
+.main-nav {
+  display: block;
+  position: absolute;
+      left: -100px;
+      width: 100px;
+      height: 100px;
+      -webkit-animation: slide2 0.5s forwards;
+      -webkit-animation-delay: 2s;
+      animation: slide2 0.5s forwards;
+      animation-delay: 0.1s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+@-webkit-keyframes slide2 {
+    100% { left: 100%; }
+}
+
+@keyframes slide2 {
+    100% { left: 100%; }
+}
+
+.nav-link {
+      padding: 30px;
+}
+
+.ulthingmobile {
+  white-space: nowrap;
+  width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (min-width: 601px) {
+  .navbar-handle {
+    display: none;
+  }
+  #navbarrr {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .needtoknow {
+    display: none !important;
+  }
+  .navbar {
+    padding: 3px 0px;
+  }
+}
