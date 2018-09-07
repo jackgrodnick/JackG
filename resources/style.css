@@ -1491,9 +1491,8 @@ font-family: 'Lato', sans-serif;
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  -webkit-animation: spin-reverse .6s linear infinite;
-          animation: spin-reverse .6s linear infinite;
 }
+
 #loader:after {
   content: "";
   position: absolute;
@@ -1503,8 +1502,6 @@ font-family: 'Lato', sans-serif;
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  -webkit-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
 }
 
 #loader-wrapper .loader-section {
