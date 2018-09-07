@@ -1478,8 +1478,6 @@ font-family: 'Lato', sans-serif;
     margin: -75px 0 0px -300px;
     border-radius: 50%;
     border: 3px solid transparent;
-    -webkit-animation: spin 1.7s linear infinite;
-    animation: spin 1.7s linear infinite;
     z-index: 11;
 }
 
@@ -1827,6 +1825,9 @@ transition: fill 0.2s ease-out;
     margin: 0px !important;
 }
 
+#navbarrr.nav-menu-open .navbar-handle {
+  color: white !important;
+}
 
 #navbarrr a {
   text-decoration: none;
@@ -1914,7 +1915,13 @@ section:target:before {
   .needtoknow {
     display: none !important;
   }
+  .nolink {
+    display: none !important;
+  }
   .navbar {
     padding: 3px 0px;
+  }
+  .header-1 {
+    background-color: #181818;
   }
 }
