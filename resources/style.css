@@ -1557,7 +1557,9 @@ font-family: 'Lato', sans-serif;
     position: relative;
     left: 50%;
     top: 60%;
-    margin: -75px 0 0 -44px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: -75px 0 0 -60px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1859,7 +1861,7 @@ section:target:before {
 }
 
 .main-nav {
-  display: block;
+   display: block;
   position: absolute;
       left: -100px;
       width: 100px;
