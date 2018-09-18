@@ -1958,7 +1958,7 @@ section:target:before {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   #message {
     max-width: 100% !important;
   }
