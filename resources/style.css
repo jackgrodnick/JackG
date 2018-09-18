@@ -1932,3 +1932,28 @@ section:target:before {
     background-color: #181818;
   }
 }
+
+
+@media (max-width: 1025px) and (orientation: portrait) {
+  #loader {
+      top: 60%;
+  }
+  #jackisthinking {
+      top: 56% !important;
+  }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+  #loader {
+      top: 67% !important;
+  }
+  #jackisthinking {
+      top: 60% !important;
+  }
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+  #jackisthinking {
+      top: 62% !important;
+  }
+}
