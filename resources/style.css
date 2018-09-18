@@ -1957,3 +1957,9 @@ section:target:before {
       top: 62% !important;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  #message {
+    max-width: 100% !important;
+  }
+}
