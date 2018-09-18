@@ -876,14 +876,14 @@ header {
 #subject {
   padding: 10px;
   width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-bottom: 0%;
 }
 
 #message {
   padding: 10px;
   width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
     height: 150px;
     border: 0px solid #000000;
     display: inline;
