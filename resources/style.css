@@ -880,6 +880,10 @@ header {
     margin-bottom: 0%;
 }
 
+.topmargins {
+  margin-top: 1.5%;
+}
+
 #message {
   padding: 10px;
   width: 100%;
